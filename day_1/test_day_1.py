@@ -26,7 +26,7 @@ def test_main(mock_extract):
 
     # WHEN
     expected = 11
-    actual = day_1.main()
+    actual = day_1.part_1()
 
     # THEN
     assert expected == actual
